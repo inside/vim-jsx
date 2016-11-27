@@ -13,4 +13,4 @@ if exists("loaded_matchit")
         \ '<\@<=\([^/][^ \t>]*\)[^>]*\%(>\|$\):<\@<=/\1>'
 endif
 
-setlocal suffixesadd+=.jsx
+let b:did_ftplugin = 1

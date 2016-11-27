@@ -11,12 +11,12 @@
 
 " Prologue; load in XML syntax.
 if exists('b:current_syntax')
-  let s:current_syntax=b:current_syntax
+  let s:current_syntax = b:current_syntax
   unlet b:current_syntax
 endif
 syn include @XMLSyntax syntax/xml.vim
 if exists('s:current_syntax')
-  let b:current_syntax=s:current_syntax
+  let b:current_syntax = s:current_syntax
 endif
 
 " Officially, vim-jsx depends on the pangloss/vim-javascript syntax package
