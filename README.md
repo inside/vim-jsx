@@ -1,3 +1,11 @@
+**Disclaimer**
+
+This fork of vim-jsx handles jsx in .js files by default. There is no
+configuration. It will be loaded for the javascript filetype.
+
+**Use this if you only write .js files. Otherwise use [the orginal
+version](https://github.com/mxw/vim-jsx).**
+
 vim-jsx
 =======
 
